@@ -6,7 +6,7 @@ import { ArtistaComponent } from './components/artista/artista.component';
 import { SearchComponent } from './components/search/search.component';
 
 
-const ROUTES: Routes = [
+export const ROUTES: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'artista', component: ArtistaComponent },
     { path: 'search', component: SearchComponent },
